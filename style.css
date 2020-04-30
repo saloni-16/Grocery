@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* __IMG__ */
+.column-2{
+  float: left;
+  width:50%;
+  padding: 5px;
+}
+.column-3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+#heading{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn1{
+    padding:10px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 15px;
+    outline: none;
+}
+#btn1:focus{
+  background-color: rgb(47, 226, 47);
+  color: white;
+}
+#btn2{
+    padding:10px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 15px;
+    outline: none;
+}
+#btn2:focus{
+  background-color: rgb(47, 226, 47);
+  color: white;
+}
+#quanty{
+  font-family: monospace;
+  margin:25px 0 5px 0;
+  font-size: 20px;
+}
+#quantity{
+  font-size: 20px;
+  padding: 8px 35px;
+  border-radius: 20px;
+  outline: none;
+}
+#payble{
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 5px 45px;
+  border-radius:20px;
+  border: none;
+  background-color:rgb(102, 77, 240);
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Clear floats after the columns */
+.row-3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Clearfix (clear floats) */
+.row-2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#caption{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(14, 11, 11);
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
